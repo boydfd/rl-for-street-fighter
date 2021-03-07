@@ -1,0 +1,6 @@
+stable_baselines3
+gym-retro
+tqdm
+gym==0.18
+cloudpickle~=1.3.0
+pyglet==1.5.0
