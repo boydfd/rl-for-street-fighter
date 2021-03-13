@@ -16,7 +16,8 @@ from tqdm import tqdm
 #     # Saves Model into
 #     model.save(model_name)  # "Whatever Your File Name is/" + modelname)
 #     env.close()
-from src.resources import session_table, Session
+from src.resources import session_table
+from src.session.session import Session
 
 
 def train(model):
