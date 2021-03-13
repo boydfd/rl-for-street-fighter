@@ -20,3 +20,15 @@ No such file or directory: 'ffmpeg': 'ffmpeg'
 
 Q:
 `brew install ffmpeg`
+
+A:
+Error occur when use SubprocVecEnv:
+```
+An attempt has been made to start a new process before the current process has finished its bootstrapping phase.
+```
+
+Q:
+must train wrapped in 
+```
+if __name__ == '__main__':
+```
